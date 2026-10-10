@@ -82,7 +82,8 @@ details p{padding:0 20px 18px;color:var(--muted)}
 .signup-form input,.signup-form textarea{border:1px solid var(--border);border-radius:10px;padding:12px 14px;font:inherit;color:var(--text);background:var(--bg);resize:vertical}
 .signup-form input:focus,.signup-form textarea:focus{outline:2px solid var(--blue);outline-offset:1px}
 .signup-form .btn{width:100%;text-align:center}
-.form-note{font-size:0.85rem;color:rgba(255,255,255,.75);margin-top:14px;max-width:560px}
+.form-note{font-size:0.85rem;color:rgba(255,255,255,.85);margin-top:14px;max-width:560px}
+.form-note strong{color:#fff}
 footer{padding:32px 0;border-top:1px solid var(--border);color:var(--muted);font-size:0.95rem}
 .footer-row{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
 @media(max-width:820px){
@@ -345,9 +346,10 @@ footer{padding:32px 0;border-top:1px solid var(--border);color:var(--muted);font
         <label>Вопрос или комментарий (необязательно)
           <textarea name="comment" rows="3" placeholder="Например: сомневаюсь, подойдёт ли мне курс"></textarea>
         </label>
-        <button class="btn btn-white" type="submit">Отправить заявку</button>
+        <button class="btn" type="submit">Отправить заявку</button>
       </form>
       <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных. Заявка откроется в вашей почтовой программе — так форма работает без JavaScript и сторонних сервисов.</p>
+      <p class="form-note">Если почтовая программа не открылась — ничего страшного: напишите нам сами на <strong>hello@edustart.example</strong>, в теме письма укажите «Заявка на курс EduStart». Мы отвечаем всем в течение дня.</p>
     </div>
   </section>
 
